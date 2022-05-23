@@ -1,7 +1,7 @@
 import React from 'react';
 import {FaFacebook, FaHome, FaLinkedin, FaMailBulk, FaPhone} from "react-icons/fa";
 
-const MyComponent = () => {
+const Footer = () => {
     return (
         <div className={"container mx-auto lg:py-12 py-16 lg:px-0 px-12 flex lg:flex-row flex-col lg:space-x-12 space-x-0 lg:space-y-0 space-y-8 lg:grid lg:grid-cols-2 gap-[40px]"}>
             <div className={"flex flex-col space-y-4"}>
@@ -39,4 +39,4 @@ const MyComponent = () => {
     );
 };
 
-export default MyComponent;
+export default Footer;

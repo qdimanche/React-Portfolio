@@ -11,3 +11,7 @@ body {
     background-color: #F86C43;
 }
 
+.bg-macbook::before {
+    background: url("/src/assets/macbook.jpg");
+}
+

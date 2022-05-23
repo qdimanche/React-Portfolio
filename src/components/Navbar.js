@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import {Link} from "react-router-dom";
 import {FaBars, FaTimes} from "react-icons/fa";
 
-const MyComponent = () => {
+const Navbar = () => {
 
     const [click, setClick] = useState(false);
     const handleClick = () => setClick(!click);
@@ -48,4 +48,4 @@ const MyComponent = () => {
     );
 };
 
-export default MyComponent;
+export default Navbar;
