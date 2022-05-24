@@ -15,3 +15,11 @@ body {
     background: url("/src/assets/macbook.jpg");
 }
 
+.grid-row-custom-1 {
+    grid-row: 1;
+}
+
+.grid-col-custom-12 {
+    grid-template-columns: repeat(12, 1fr);
+}
+
