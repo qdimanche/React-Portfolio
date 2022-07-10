@@ -21,22 +21,22 @@ const Navbar = () => {
 
     return (
         <div className={color ? "flex px-6 lg:py-6 py-10  lg:h-fit items-center fixed w-full h-[90px] z-10 bg-black/90 transition-all duration-500" : "flex px-6 lg:py-6 py-10  lg:h-fit items-center fixed w-full h-[90px] z-10 bg-transparent" }>
-            <Link to={"/react-portfolio"}>
+            <Link to={"/"}>
                 <img src={require("../assets/apple-touch-icon.png")} className={"w-20"} alt=""/>
             </Link>
             
             <ul className={click ?"w-full flex lg:flex-row flex-col  lg:space-x-8 lg:space-y-0 space-y-8 items-center  lg:justify-end justify-center lg:text-xl text-3xl font-bold lg:bg-transparent lg:bg-transparent bg-black/90 text-white lg:static absolute top-0 left-0 lg:h-fit h-screen " : "w-full flex lg:flex-row flex-col  lg:space-x-8 lg:space-y-0 space-y-8 items-center lg:justify-end justify-center lg:text-xl text-3xl font-bold lg:bg-transparent lg:bg-transparent bg-black/90 text-white lg:static absolute top-0 -left-full lg:h-fit h-screen -z-3 transition-all duration-500"}>
                 <li>
-                    <Link to={"/react-portfolio"}>Accueil</Link>
+                    <Link to={"/"}>Accueil</Link>
                 </li>
                 <li>
-                    <Link to={"/react-portfolio/about"}>À propos</Link>
+                    <Link to={"/about"}>À propos</Link>
                 </li>
                 <li>
-                    <Link to={"/react-portfolio/project"}>Projets</Link>
+                    <Link to={"/project"}>Projets</Link>
                 </li>
                 <li>
-                    <Link to={"/react-portfolio/contact"}>Contact</Link>
+                    <Link to={"/contact"}>Contact</Link>
                 </li>
 
             </ul>
