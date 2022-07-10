@@ -11,10 +11,10 @@ function App() {
   return (
     <>
        <Routes>
-           <Route path="/" element={<Home/>} />
-           <Route path={`${process.env.PUBLIC_URL}/project`} element={<Project/>} />
-           <Route path={`${process.env.PUBLIC_URL}/about`} element={<About/>} />
-           <Route path={`${process.env.PUBLIC_URL}/contact`} element={<Contact/>} />
+           <Route path="/react-portfolio" element={<Home/>} />
+           <Route path="/react-portfolio/project" element={<Project/>} />
+           <Route path="/react-portfolio/about" element={<About/>} />
+           <Route path="/react-portfolio" element={<Contact/>} />
        </Routes>
     </>
   );

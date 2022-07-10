@@ -12,8 +12,8 @@ const HeroImg = () => {
                 <p className={"uppercase text-xl font-light"}>Quentin Dimanche</p>
                 <h1 className={"text-6xl font-bold"}>Développeur Web</h1>
                 <div className={"space-x-12 flex justify-center"}>
-                    <Link to="/project"><div className={"uppercase bg-orange-400 hover:bg-[#e28336] py-2 px-10 text-black text-lg border border-white"}>Projets</div></Link>
-                    <Link to="/contact"><div className={"uppercase bg-transparent py-2 px-10 text-white text-lg border border-white"}>Contact</div></Link>
+                    <Link to="/react-portfolio/project"><div className={"uppercase bg-orange-400 hover:bg-[#e28336] py-2 px-10 text-black text-lg border border-white"}>Projets</div></Link>
+                    <Link to="/react-portfolio/contact"><div className={"uppercase bg-transparent py-2 px-10 text-white text-lg border border-white"}>Contact</div></Link>
                 </div>
             </div>
         </div>

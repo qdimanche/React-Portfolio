@@ -9,7 +9,7 @@ const AboutComponent = () => {
             <div className={"items-center m-auto p-[1rem] max-w-[340px] text-center"}>
                 <h1 className={"font-bold text-2xl"}>Qui je suis ?</h1>
                 <p className={"my-6"}>Je suis un développeur web</p>
-                <Link to={"/contact"}>
+                <Link to={"/react-portfolio/contact"}>
                     <button className={"uppercase bg-orange-400 hover:bg-[#e28336] py-2 px-10 text-black text-lg border border-white"}>Contact</button>
                 </Link>
             </div>
